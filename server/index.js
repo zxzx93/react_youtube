@@ -46,7 +46,6 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 //.resolve:지정된 경로를 절대 경로로 해석
-
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
